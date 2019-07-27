@@ -188,7 +188,6 @@ SLIDESHOW
 
 .container {
   /*padding-top: 6rem;*/
-  overflow: auto;
   display: table;
   height: 100%;
   width: 100%;
@@ -556,9 +555,7 @@ Tablet
     height: 100%;
   }
 
-  .banner__copy {
-    overflow: scroll;
-  }
+
 
   .container__tagline {
     margin-top: 66px;
