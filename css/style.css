@@ -480,7 +480,7 @@ CONTACT MAP
 }
 
 .map__container {
-  background: url(../images/1x/mappa.jpg) no-repeat center center;
+  background: url(../images/mappa.jpg) no-repeat center center;
   background-size: cover;
   height: 100%;
   width:100%;
