@@ -789,14 +789,22 @@ Smartphone
 /*----------------------------------
 LANDSCAPE
 ----------------------------------*/
-@media only screen and (min-width: 640px) and (orientation: landscape) {
+@media only screen and (min-width: 500px) and (orientation: landscape) {
 /*slide*/
 #slide__id {
-    min-height: 410px;
+    min-height: 339px;
+}
+
+.container {
+    padding-bottom: 0;
 }
 
 .container__tagline {
     margin-top: 71px;
+}
+
+.container__tagline h2 {
+  margin: 0 0 13px 0;
 }
 
 .button {
@@ -811,7 +819,7 @@ LANDSCAPE
 /*banner*/
 
 .banner {
-    height: 175vh;
+    height: 228vh;
 }
 
 .banner__copy {
@@ -824,6 +832,11 @@ LANDSCAPE
 }
 
 /* banner2 */
+
+.banner2 {
+    height: 343px;
+}
+
 .image__wrapper {
     height: 135vh;
   }
