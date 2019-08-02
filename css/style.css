@@ -789,7 +789,7 @@ Smartphone
 /*----------------------------------
 LANDSCAPE
 ----------------------------------*/
-@media only screen and (min-width: 500px) and (orientation: landscape) {
+@media only screen and (min-width: 500px) and (max-width: 767px) and (orientation: landscape) {
 /*slide*/
 #slide__id {
     min-height: 339px;
@@ -819,7 +819,7 @@ LANDSCAPE
 /*banner*/
 
 .banner {
-    height: 228vh;
+    height: 753px;
 }
 
 .banner__copy {
