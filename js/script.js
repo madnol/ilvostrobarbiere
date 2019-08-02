@@ -25,7 +25,7 @@ $(document).ready(function() {
     navType: 'bubble',
     childrenElementType: 'div',
     arrows: false,
-    autoPlay: false,
+    autoPlay: true,
     autoPlayDuration: 2500,
     keyboardOnAlways: true,
     hidePrevious: false
