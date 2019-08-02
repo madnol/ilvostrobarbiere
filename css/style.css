@@ -576,6 +576,11 @@ SINGLE
 Tablet
 ----------------------------------*/
 @media only screen and (min-device-width : 767px) and (max-device-width : 1024px) {
+  /* Header */
+  .header {
+    padding: 0 5vw 0 8vw;
+  }
+
   /*General*/
   .whitespace {
     height: 19vh;
@@ -781,6 +786,55 @@ Smartphone
 
 }
 
+/*----------------------------------
+LANDSCAPE
+----------------------------------*/
+@media only screen and (min-width: 640px) and (orientation: landscape) {
+/*slide*/
+#slide__id {
+    min-height: 410px;
+}
+
+.container__tagline {
+    margin-top: 71px;
+}
+
+.button {
+    margin-top: -30px;
+}
+
+/* Gallery */
+  .column {
+    padding: 0 5px 0 5px;
+}
+
+/*banner*/
+
+.banner {
+    height: 175vh;
+}
+
+.banner__copy {
+    height: 47%;
+    padding-bottom: 0;
+}
+
+.banner__image{
+    height: 53%;
+}
+
+/* banner2 */
+.image__wrapper {
+    height: 135vh;
+  }
+
+/* map */
+
+.block {
+  display: inline-block;
+}
+
+}
 /*----------------------------------
 CLEARFIX
 ----------------------------------*/
