@@ -166,7 +166,6 @@ SLIDESHOW
 }
 
 .slide {
-  overflow: auto;
   margin-top: -100px;
 }
 
@@ -194,11 +193,11 @@ SLIDESHOW
 
 .container {
   /*padding-top: 6rem;*/
-  overflow: auto;
   display: table;
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  overflow:auto;
 }
 
 .slide .container__tagline {
@@ -289,7 +288,7 @@ BANNER
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: hidden;
+
 }
 
 .banner__copy__2 {
@@ -302,7 +301,7 @@ BANNER
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: hidden;
+
 }
 
 .banner__copy h2, .banner__copy__2 h2 {
@@ -607,6 +606,7 @@ Tablet
   }
 
 
+
   .banner__image-2 {
     width: 100%;
     height: 100%;
@@ -616,6 +616,7 @@ Tablet
   .banner__copy {
     overflow: scroll;
   }
+
 
   .banner__copy__text2 {
     padding: 8.5% 20%;
