@@ -65,11 +65,6 @@ p {
   overflow: visible;
 }
 
-#map {
-  height: 500px;
-  width:100%;
-}
-
 /*----------------------------------
 HEADER
 ----------------------------------*/
@@ -468,29 +463,6 @@ CONTACT
   font-size: 18px;
 }
 
-/*----------------------------------
-CONTACT MAP
-----------------------------------*/
-.map {
-  width: 400px;
-  height: 400px;
-  float:right;
-  margin: 20px 16% 20px 0;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
-}
-
-.map__container {
-  background: url(../images/1x/mappa.jpg) no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  width:100%;
-}
-
-
-/*----------------------------------
-CONTACT MAP END
-----------------------------------*/
-
 @media screen and (min-width: 480px) {
 
   /*contact*/
@@ -575,36 +547,16 @@ SINGLE
 /*----------------------------------
 Tablet
 ----------------------------------*/
-@media only screen and (min-device-width : 767px) and (max-device-width : 1024px) {
-  /*General*/
-  .whitespace {
-    height: 19vh;
-  }
+@media (max-width: 998px) {
 
-  /* Slide */
-  .container__tagline {
-    margin-top: 46px;
-  }
   /*Banner*/
-  .banner {
-    height: 447px;
-  }
-
-  .banner2 {
-    height: 372px;
-  }
-
-  .image__wrapper {
-    margin: 106px 0 0 40px;
-    height: 80vh;
-  }
-
   .banner__image,
   .banner__copy {
     width: 50%;
     height: 100%;
   }
 
+<<<<<<< HEAD
 
 
   .banner__image-2 {
@@ -613,47 +565,31 @@ Tablet
   }
 
 
+=======
+>>>>>>> parent of 6f1e0c5... image
   .banner__copy {
     overflow: scroll;
   }
 
+<<<<<<< HEAD
 
   .banner__copy__text2 {
     padding: 8.5% 20%;
+=======
+  .container__tagline {
+    margin-top: 66px;
+>>>>>>> parent of 6f1e0c5... image
   }
-
-
 
   .button {
-    margin-top: 40vh;
-}
-
-  .image__wrapper {
-    height: 430px;
-    width: 32vh;
-  }
-
-  /*gallery*/
-
-  .column {
-    padding: 0 12.5px 0 12.5px;
-  }
-
-  /* Map */
-
-  .map {
-    width: 100%;
-    margin: 20px 0;
+    margin-top: 39vh;
   }
 }
 
 /*----------------------------------
 Smartphone
 ----------------------------------*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 766px){
-
-  /*header*/
-
+@media (max-width: 767px) {
   .header__logo {
     display: block;
     margin-bottom: 0;
@@ -684,8 +620,8 @@ Smartphone
   }
 
   .button {
-    margin-top: 80px;
-}
+    margin-top: 157px;
+  }
 
   .clickmenu {
     -webkit-box-shadow: 0 20px 20px rgba(0, 51, 42, 1) inset;
@@ -702,13 +638,19 @@ Smartphone
     padding-bottom: 60px;
   }
 
+  /*Cover*/
+  /*.cover {
+      height: 100%;
+    }*/
+  /*Cards*/
+  .card {
+    width: 90%;
+    margin: 5%;
+  }
+
   /*Banner*/
   .banner {
     height: 110vh;
-  }
-
-  .banner2 {
-    height: 441px;
   }
 
   .banner__copy {
@@ -724,13 +666,6 @@ Smartphone
 
   .banner__copy__text {
     padding: 4.3% 20%;
-  }
-
-
-  /* Gallery */
-
-  .column {
-    padding: 0;
   }
 
   /* Team */
@@ -754,7 +689,7 @@ Smartphone
   }
 
   .banner__copy__text2 {
-    padding: 9.3% 11%;
+    padding: 4.3% 11%;
   }
 
   /* Contact */
@@ -771,15 +706,6 @@ Smartphone
     float: none;
     top: 50%;
   }
-
-  /* Map */
-  .map {
-    border: 1px solid red;
-    width: 100%;
-    margin: 40px 0;
-    float:none;
-  }
-
 }
 
 /*----------------------------------
