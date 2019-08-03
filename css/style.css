@@ -175,7 +175,7 @@ SLIDESHOW
   height: 100%;
   position: absolute;
   z-index: 888;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .slide .container {
@@ -696,6 +696,7 @@ Smartphone
     -webkit-box-shadow: 0 20px 20px rgba(0, 51, 42, 1) inset;
     box-shadow: 0 20px 20px rgba(0, 51, 42, 1) inset;
     background: #004D40;
+    border-radius: 0 0 50px 50px;
   }
 
   /*************************SLIDE-HEADER**************************************/
@@ -709,8 +710,8 @@ Smartphone
 
   /*Banner*/
   .banner {
-    height: 110vh;
-  }
+    height: 721px;
+}
 
   .banner2 {
     height: 441px;
@@ -722,7 +723,12 @@ Smartphone
     padding-bottom: 10%;
   }
 
-  .banner__image, .banner__image-2 {
+  .banner__image {
+    width:100%;
+    height: 44%;
+  }
+
+  .banner__image-2 {
     width: 100%;
     height: 37%;
   }

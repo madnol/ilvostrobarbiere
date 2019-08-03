@@ -269,6 +269,12 @@ SLIDESHOW
         e.preventDefault();
       });
 
+      //after click on a li...........................................................
+      $('.header li').on('click', function() {
+        $(".header__menu").toggleClass('is-open');
+        $(".header").toggleClass('clickmenu');
+      });
+
       $(".chocolat-parent").Chocolat();
 
 
